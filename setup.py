@@ -7,11 +7,12 @@ def testsuite():
 	test_suite = test_loader.discover('tests', pattern='test*.py')
 	return test_suite
 setup(name='daemonmgr',
-      version='0.0.8',
+      version='0.0.9',
       long_description=readme,
       description='Create daemons from commands',
       author='Gerard Duval',
       author_email='gerard.duval@gdsoftconsulting.com',
+      url='https://github.com/gduvalsc/daemonmgr',
       scripts=['scripts/daemonmgr'],
       license='BSD',
       packages=['daemonmgr'],
