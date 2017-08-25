@@ -2,8 +2,7 @@
 if [ -f "$(which python3)" ]
 then
    PYTHON=$(which python3)
-fi
-if [ -f "$(which python)" ]
+elif [ -f "$(which python)" ]
 then
    PYTHON=$(which python)
 fi

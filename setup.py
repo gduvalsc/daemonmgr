@@ -7,7 +7,7 @@ def testsuite():
 	test_suite = test_loader.discover('tests', pattern='test*.py')
 	return test_suite
 setup(name='daemonmgr',
-      version='0.0.10',
+      version='0.0.12',
       long_description=readme,
       description='Create daemons from commands',
       author='Gerard Duval',

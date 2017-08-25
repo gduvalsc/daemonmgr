@@ -6,7 +6,7 @@ Introduction
 Installation
 ------------
 
-Install, upgrade and uninstall influxsql with the following commands:
+Install, upgrade and uninstall daemonmgr with the following commands:
 
 ::
 
